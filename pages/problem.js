@@ -9,5 +9,5 @@ export default function Problem() {
 }
 
 export const getServerSideProps = () => {
-  throw new Error("error");
+  throw new Error("error inside getServerSideProps");
 };
